@@ -3,8 +3,9 @@ import SimpleUseMemoExample from "./SimpleUseMemoExample";
 
 function App() {
   return (
-    <div>
+    <div className="flex items-center justify-center w-screen h-screen">
       <SimpleUseMemoExample />
+      
       <AdvancedUseMemoExample />
     </div>
   )
