@@ -1,10 +1,11 @@
-import CombinedUseMemoExample from "./components/CombinedUseMemoExample";
+
+import CombinedUseMemoExampleTwo from "./components/CombinedUseMemoExampleTwo";
 
 
 function App() {
   return (
     <div className="flex items-center justify-center w-screen h-screen">
-     <CombinedUseMemoExample />
+     <CombinedUseMemoExampleTwo />
     </div>
   )
 }
