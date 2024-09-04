@@ -1,13 +1,11 @@
-
-import CombinedUseMemoExampleTwo from "./components/CombinedUseMemoExampleTwo";
-
+import BetterExample from "./components/BetterExample";
 
 function App() {
   return (
     <div className="flex items-center justify-center w-screen h-screen">
-     <CombinedUseMemoExampleTwo />
+      <BetterExample />
     </div>
-  )
+  );
 }
 
 export default App;
