@@ -1,11 +1,13 @@
-import BetterExample from "./components/BetterExample";
+import NumberList from "./components/NumberList";
 
-function App() {
+const App = () => {
+  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
   return (
-    <div className="flex items-center justify-center w-screen h-screen">
-      <BetterExample />
+    <div className="p-4">
+      <NumberList numbers={numbers} />
     </div>
   );
-}
+};
 
 export default App;
